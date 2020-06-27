@@ -1,18 +1,7 @@
-ATTACKPATH = /root/targets/$(subst attack-,target-,$(shell basename `pwd`))
-
 all: check-ctarget check-rtarget
 
 check-ctarget: ctarget-1 ctarget-2 ctarget-3
 check-rtarget: rtarget-2 rtarget-3
-
-rtarget:
-	cp -v $(ATTACKPATH)/rtarget .
-
-ctarget:
-	cp -v $(ATTACKPATH)/ctarget .
-
-hex2raw:
-	cp -v $(ATTACKPATH)/hex2raw .
 
 ctarget-%: ctarget hex2raw
 	@echo -n "CTARGET touch$*... "

